@@ -47,18 +47,21 @@ export const StyledHeader = styled.header`
 
   .stripe:first-child {
     transition: 0.3s ease;
-    transform: translateY(0);
+    transform: ${({ isMenuClosed }) =>
+      isMenuClosed ? "translateY(0)" : "translateY(9px) rotateZ(-45deg)"};
   }
 
   .stripe:nth-child(2) {
     transition: 0.3s ease;
     background-color: #63c9d2;
     transform: translateY(7px);
+    opacity: ${({ isMenuClosed }) => (isMenuClosed ? "1" : "0")};
   }
 
   .stripe:last-child {
     transition: 0.3s ease;
-    transform: translateY(14px);
+    transform: ${({ isMenuClosed }) =>
+      isMenuClosed ? "translateY(14px)" : "translateY(4px) rotate(45deg)"};
   }
 
   @media screen and (min-width: 768px) {
@@ -96,15 +99,16 @@ export const StyledHeader = styled.header`
     }
 
     button {
-      min-height: 30px;
+      min-height: 40px;
       min-width: 140px;
       display: block;
       border: none;
       border-radius: 20px;
       color: #fff;
       font-size: 1.3rem;
-      cursor: pointer;
       background-color: #63c9d2;
+      cursor: pointer;
+      outline: none;
     }
 
     button:hover {
