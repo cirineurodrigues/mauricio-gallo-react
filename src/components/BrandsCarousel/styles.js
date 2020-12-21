@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-export const CarouselContainer = styled.div`
-  background-color: #000;
-`;
-
 export const Title = styled.h1`
   font-size: 1.2rem;
   color: #fff;

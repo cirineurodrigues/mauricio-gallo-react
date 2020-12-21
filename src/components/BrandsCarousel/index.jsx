@@ -1,4 +1,4 @@
-import { CarouselContainer, Title, ImageDiv } from "./styles";
+import { Title, ImageDiv } from "./styles";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -38,48 +38,46 @@ const BrandsCarousel = () => {
   };
   return (
     <>
-      <CarouselContainer>
-        <Title>Mauricio Gallo usa e recomenda:</Title>
-        <Carousel
-          additionalTransfrom={0}
-          arrows
-          autoPlay
-          autoPlaySpeed={3000}
-          centerMode={false}
-          className=""
-          containerClass="container-with-dots"
-          dotListClass=""
-          draggable
-          focusOnSelect={false}
-          infinite
-          itemClass=""
-          keyBoardControl
-          minimumTouchDrag={80}
-          renderButtonGroupOutside={false}
-          renderDotsOutside={false}
-          responsive={responsive}
-          showDots={false}
-          sliderClass=""
-          slidesToSlide={1}
-          swipeable
-        >
-          <ImageDiv>
-            <img src={logo01} alt="" />
-          </ImageDiv>
-          <ImageDiv>
-            <img src={logo02} alt="" />
-          </ImageDiv>
-          <ImageDiv>
-            <img src={logo03} alt="" />
-          </ImageDiv>
-          <ImageDiv>
-            <img src={logo04} alt="" />
-          </ImageDiv>
-          <ImageDiv>
-            <img src={logo05} alt="" />
-          </ImageDiv>
-        </Carousel>
-      </CarouselContainer>
+      <Title>Mauricio Gallo usa e recomenda:</Title>
+      <Carousel
+        additionalTransfrom={0}
+        arrows
+        autoPlay
+        autoPlaySpeed={3000}
+        centerMode={false}
+        className=""
+        containerClass="container-with-dots"
+        dotListClass=""
+        draggable
+        focusOnSelect={false}
+        infinite
+        itemClass=""
+        keyBoardControl
+        minimumTouchDrag={80}
+        renderButtonGroupOutside={false}
+        renderDotsOutside={false}
+        responsive={responsive}
+        showDots={false}
+        sliderClass=""
+        slidesToSlide={1}
+        swipeable
+      >
+        <ImageDiv>
+          <img src={logo01} alt="" />
+        </ImageDiv>
+        <ImageDiv>
+          <img src={logo02} alt="" />
+        </ImageDiv>
+        <ImageDiv>
+          <img src={logo03} alt="" />
+        </ImageDiv>
+        <ImageDiv>
+          <img src={logo04} alt="" />
+        </ImageDiv>
+        <ImageDiv>
+          <img src={logo05} alt="" />
+        </ImageDiv>
+      </Carousel>
     </>
   );
 };
