@@ -2,6 +2,7 @@ import GlobalStyle from "./styles/global";
 
 import Header from "./components/Header";
 import Banner from "./components/Banner";
+import BrandsCarousel from "./components/BrandsCarousel";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         btnText="Contato"
       />
       <Banner />
+      <BrandsCarousel />
     </>
   );
 }
