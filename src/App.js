@@ -3,6 +3,7 @@ import GlobalStyle from "./styles/global";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import BrandsCarousel from "./components/BrandsCarousel";
+import Aulas from "./components/Aulas";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       />
       <Banner />
       <BrandsCarousel />
+      <Aulas />
     </>
   );
 }
