@@ -8,7 +8,7 @@ const Aulas = () => {
       <AulasContainer>
         <h1>Aulas</h1>
         <YouTube
-          videoId="2P3SYOIREV8"
+          videoId="fCTUrhcxS1c"
           containerClassName={"youtubeContainer"}
         />
       </AulasContainer>
