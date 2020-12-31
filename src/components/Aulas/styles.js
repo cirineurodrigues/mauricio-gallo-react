@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const AulasContainer = styled.div`
-  width: 90%;
+export const AulasContainer = styled.section`
+  width: 95%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,26 +11,22 @@ export const AulasContainer = styled.div`
   h1 {
     font-size: 3rem;
     color: #fff;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
   }
-  .youtubeContainer {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-    overflow: hidden;
-    margin-bottom: 30px;
-  }
+`;
 
-  .youtubeContainer iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+export const CardsContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+`;
 
-  @media screen and (min-width: 768px) {
-    width: 60%;
-  }
+export const NumbersContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 `;

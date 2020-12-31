@@ -8,7 +8,7 @@ export const StyledHeader = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  z-index: 1001;
   background-color: #000;
 
   ul,
@@ -99,7 +99,7 @@ export const StyledHeader = styled.header`
     }
 
     button {
-      min-height: 40px;
+      min-height: 30px;
       min-width: 140px;
       display: block;
       border: none;
