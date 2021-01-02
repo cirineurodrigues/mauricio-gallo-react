@@ -5,6 +5,7 @@ import Banner from "./components/Banner";
 import BrandsCarousel from "./components/BrandsCarousel";
 import Aulas from "./components/Aulas";
 import Bio from "./components/Bio";
+import Musicas from "./components/Musicas";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <BrandsCarousel />
       <Aulas />
       <Bio />
+      <Musicas />
     </>
   );
 }
