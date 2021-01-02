@@ -6,6 +6,7 @@ import BrandsCarousel from "./components/BrandsCarousel";
 import Aulas from "./components/Aulas";
 import Bio from "./components/Bio";
 import Musicas from "./components/Musicas";
+import Paralax from "./components/Paralax";
 import Footer from "./components/Footer";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Aulas />
       <Bio />
       <Musicas />
+      <Paralax />
       <Footer />
     </>
   );

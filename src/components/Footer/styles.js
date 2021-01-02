@@ -18,7 +18,7 @@ export const SocialContainer = styled.div`
   align-items: center;
 
   a {
-    margin: 10px 20px;
+    padding: 10px 20px;
     color: #fff;
     font-size: 1.5rem;
   }
@@ -35,4 +35,15 @@ export const Credits = styled.div`
   background-color: #63c9d2;
   font-size: 1.2rem;
   text-align: center;
+
+  a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 550;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 4px 0;
+    font-size: 1rem;
+  }
 `;

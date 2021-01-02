@@ -40,8 +40,8 @@ const Aulas = () => {
         <NumbersContainer>
           <Numbers number={1000} text="Alunos" />
           <Numbers number={20} text="Anos de experiência" />
-          <Numbers number={20} text="Anos de experiência" />
-          <Numbers number={20} text="Anos de experiência" />
+          <Numbers number={98} text="% de alunos satisfeitos" />
+          <Numbers number={5} text="Cursos concluídos" />
         </NumbersContainer>
       </AulasContainer>
     </>
