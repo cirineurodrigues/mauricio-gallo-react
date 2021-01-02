@@ -23,12 +23,13 @@ export const StyledCalendar = styled.div`
   }
 
   h1 {
-    font-size: 4rem !important;
+    font-size: 4.5rem !important;
     padding-bottom: 0;
   }
 
   h2 {
     font-size: 2rem;
+    font-weight: 500;
   }
 
   h3 {

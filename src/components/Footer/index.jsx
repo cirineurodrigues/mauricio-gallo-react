@@ -1,6 +1,6 @@
 import { StyledFooter, SocialContainer, Credits } from "./styles";
 
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaTelegramPlane } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { AiFillYoutube } from "react-icons/ai";
 
@@ -24,6 +24,9 @@ const Footer = () => {
             target="blank"
           >
             <AiFillYoutube />
+          </a>
+          <a href="https://t.me/joinchat/GEoghKE8d1jNvN1L" target="blank">
+            <FaTelegramPlane />
           </a>
         </SocialContainer>
       </StyledFooter>

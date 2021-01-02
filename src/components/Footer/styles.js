@@ -33,7 +33,7 @@ export const Credits = styled.div`
   width: 100%;
   padding: 6px 0;
   background-color: #63c9d2;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
 
   a {
@@ -44,6 +44,5 @@ export const Credits = styled.div`
 
   @media screen and (min-width: 768px) {
     padding: 4px 0;
-    font-size: 1rem;
   }
 `;
