@@ -7,6 +7,7 @@ import Aulas from "./components/Aulas";
 import Bio from "./components/Bio";
 import Musicas from "./components/Musicas";
 import Paralax from "./components/Paralax";
+import Agenda from "./components/Agenda";
 import Footer from "./components/Footer";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Bio />
       <Musicas />
       <Paralax />
+      <Agenda />
       <Footer />
     </>
   );

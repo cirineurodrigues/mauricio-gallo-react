@@ -22,7 +22,7 @@ export const StyledMusicas = styled.section`
   }
 
   a {
-    min-height: 50px;
+    max-height: 50px;
     min-width: 200px;
     display: flex;
     justify-content: center;
@@ -43,8 +43,7 @@ export const StyledMusicas = styled.section`
   }
 
   .icon {
-    padding: 0 5px;
-    font-size: 2rem;
+    font-size: 4rem;
   }
 
   @media screen and (min-width: 768px) {
