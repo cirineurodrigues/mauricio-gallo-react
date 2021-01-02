@@ -9,7 +9,6 @@ export const VideoContainer = styled.div`
     height: 0;
     padding-bottom: 56.25%;
     overflow: hidden;
-    margin: 40px 0;
   }
 
   .youtubeContainer iframe {

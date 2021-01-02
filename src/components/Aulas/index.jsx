@@ -36,7 +36,7 @@ const Aulas = () => {
             <IoLogoWhatsapp />
           </Card>
         </CardsContainer>
-        <YoutubeVideo videoId="fCTUrhcxS1c" />
+        <YoutubeVideo videoId="2P3SYOIREV8" />
         <NumbersContainer>
           <Numbers number={1000} text="Alunos" />
           <Numbers number={20} text="Anos de experiência" />

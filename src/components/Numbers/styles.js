@@ -6,14 +6,13 @@ export const StyledNumbers = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
   font-size: 3rem;
   font-weight: 300;
   color: #fff;
 
   h1 {
     font-size: 1.2rem !important;
-    color: #282929;
+    color: #474949;
     padding-bottom: 10px;
   }
 

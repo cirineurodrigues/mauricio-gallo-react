@@ -17,6 +17,7 @@ export const IconContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 30px;
+  margin-bottom: 20px;
   color: #fff;
   font-size: 3rem;
   border-radius: 50%;
@@ -28,5 +29,5 @@ export const TextContainer = styled.div`
   font-size: 1.2rem;
   color: #fff;
   text-align: center;
-  margin: 20px 0;
+  margin-bottom: 30px;
 `;

@@ -8,6 +8,7 @@ import logo02 from "../../assets/logo-02.png";
 import logo03 from "../../assets/logo-03.png";
 import logo04 from "../../assets/logo-04.png";
 import logo05 from "../../assets/logo-05.png";
+import logo06 from "../../assets/logo-06.png";
 
 const BrandsCarousel = () => {
   const responsive = {
@@ -77,6 +78,9 @@ const BrandsCarousel = () => {
           </ImageDiv>
           <ImageDiv>
             <img src={logo05} alt="" />
+          </ImageDiv>
+          <ImageDiv>
+            <img src={logo06} alt="" />
           </ImageDiv>
         </Carousel>
       </Container>

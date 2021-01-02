@@ -100,12 +100,12 @@ export const StyledHeader = styled.header`
 
     button {
       min-height: 30px;
-      min-width: 140px;
+      min-width: 110px;
       display: block;
       border: none;
       border-radius: 20px;
-      color: #fff;
-      font-size: 1.3rem;
+      color: #000;
+      font-size: 1.2rem;
       background-color: #63c9d2;
       cursor: pointer;
       outline: none;
@@ -113,7 +113,19 @@ export const StyledHeader = styled.header`
 
     button:hover {
       transition: 0.5s;
+      color: #fff;
       background-color: #16656b;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    li,
+    button {
+      font-size: 1.3rem;
+    }
+
+    button {
+      min-width: 140px;
     }
   }
 `;
