@@ -6,6 +6,7 @@ import BrandsCarousel from "./components/BrandsCarousel";
 import Aulas from "./components/Aulas";
 import Bio from "./components/Bio";
 import Musicas from "./components/Musicas";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Aulas />
       <Bio />
       <Musicas />
+      <Footer />
     </>
   );
 }

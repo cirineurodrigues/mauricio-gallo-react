@@ -13,7 +13,7 @@ export const StyledHeader = styled.header`
 
   ul,
   li,
-  button {
+  a {
     display: none;
   }
 
@@ -121,11 +121,11 @@ export const StyledHeader = styled.header`
 
   @media screen and (min-width: 992px) {
     li,
-    button {
+    a {
       font-size: 1.3rem;
     }
 
-    button {
+    a {
       min-width: 140px;
     }
   }

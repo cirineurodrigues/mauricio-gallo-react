@@ -1,4 +1,4 @@
-import { Container, Title, ImageDiv } from "./styles";
+import { Container, ImageDiv } from "./styles";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -40,7 +40,7 @@ const BrandsCarousel = () => {
   return (
     <>
       <Container>
-        <Title>Mauricio Gallo usa e recomenda:</Title>
+        <h1>Mauricio Gallo usa e recomenda:</h1>
         <Carousel
           additionalTransfrom={0}
           arrows
