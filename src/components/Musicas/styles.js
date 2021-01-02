@@ -28,14 +28,12 @@ export const StyledMusicas = styled.section`
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    border: none;
     border-radius: 20px;
     color: #000;
     font-size: 1.2rem;
     background-color: #63c9d2;
     text-decoration: none;
     cursor: pointer;
-    outline: none;
   }
 
   a:hover {

@@ -98,20 +98,21 @@ export const StyledHeader = styled.header`
       color: #63c9d2;
     }
 
-    button {
+    a {
       min-height: 30px;
       min-width: 110px;
-      display: block;
-      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-radius: 20px;
       color: #000;
       font-size: 1.2rem;
+      text-decoration: none;
       background-color: #63c9d2;
       cursor: pointer;
-      outline: none;
     }
 
-    button:hover {
+    a:hover {
       transition: 0.5s;
       color: #fff;
       background-color: #16656b;

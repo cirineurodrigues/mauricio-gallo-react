@@ -40,20 +40,21 @@ export const StyledMobileMenu = styled.div`
     border-bottom: none;
   }
 
-  button {
+  a {
     min-height: 40px;
     min-width: 140px;
-    display: block;
-    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 20px;
     color: #fff;
     font-size: 1.3rem;
+    text-decoration: none;
     background-color: #63c9d2;
     cursor: pointer;
-    outline: none;
   }
 
-  button:hover {
+  a:hover {
     transition: 0.5s;
     background-color: #16656b;
   }
