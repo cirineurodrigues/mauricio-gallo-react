@@ -1,15 +1,22 @@
-# Website do guitarrista Maurício Gallo
+<p align="center"> <img src="src/assets/logo.png" alt="Logo Med-K"></p>
 
-# Descrição do Projeto
+# ✅ Descrição do Projeto
 
-<p align="center">Site criado a fins de estudo/treino usando react, procurei utilizar styled components em grande parte do projeto, utilizei algumas bibliotecas, como por exemplo onde temos o carousel com as logos que apoiam o guitarrista.</p>
+Site desenvolvido para o guitarrista Maurício Gallo para fins de estudo.
 
-# Status do projeto
+# 🛠 Tecnologias
 
-<h4 align="center"> 
-	🚧  Em construção...  🚧
-</h4>
+- [React](https://pt-br.reactjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [React Router Dom](https://reactrouter.com/web/guides/quick-start)
+- [React Scroll](https://www.npmjs.com/package/react-scroll)
 
-# Deploy
+# ✅ Status do Projeto
 
-<a href="https://mauricio-gallo.vercel.app/">Link do deploy no Vercel</a>
+<h3 align="center"> 
+	🚧 Em construção... 🚧
+</h3>
+
+# 🖥️ Dev
+
+- [Cirineu Rodrigues](https://www.linkedin.com/in/cirineurodrigues/)
