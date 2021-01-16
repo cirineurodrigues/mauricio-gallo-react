@@ -5,7 +5,7 @@ import YoutubeVideo from "../YoutubeVideo";
 
 const Musicas = () => {
   return (
-    <StyledMusicas>
+    <StyledMusicas id="Musicas">
       <h1>Musicas</h1>
       <YoutubeVideo videoId="fCTUrhcxS1c" />
       <h2>

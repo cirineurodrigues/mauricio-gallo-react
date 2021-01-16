@@ -2,7 +2,7 @@ import { StyledBio } from "./styles";
 
 const Bio = () => {
   return (
-    <StyledBio>
+    <StyledBio id="Biografia">
       <h1>Biografia</h1>
       <p>
         Maurício Gallo começou a se interessar pela musica muito cedo. Vindo de

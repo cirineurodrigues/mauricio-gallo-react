@@ -3,7 +3,6 @@ import { Container, ImageDiv } from "./styles";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import logo01 from "../../assets/logo-01.png";
 import logo02 from "../../assets/logo-02.png";
 import logo03 from "../../assets/logo-03.png";
 import logo04 from "../../assets/logo-04.png";
@@ -39,7 +38,7 @@ const BrandsCarousel = () => {
   };
   return (
     <>
-      <Container>
+      <Container id="Brands">
         <h1>Mauricio Gallo usa e recomenda:</h1>
         <Carousel
           additionalTransfrom={0}
@@ -64,9 +63,6 @@ const BrandsCarousel = () => {
           slidesToSlide={1}
           swipeable
         >
-          <ImageDiv>
-            <img src={logo01} alt="" />
-          </ImageDiv>
           <ImageDiv>
             <img src={logo02} alt="" />
           </ImageDiv>

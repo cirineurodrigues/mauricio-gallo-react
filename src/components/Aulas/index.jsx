@@ -11,7 +11,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const Aulas = () => {
   return (
     <>
-      <AulasContainer>
+      <AulasContainer id="Aulas">
         <h1>Aulas</h1>
         <CardsContainer>
           <Card

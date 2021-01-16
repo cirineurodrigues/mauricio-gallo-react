@@ -40,7 +40,7 @@ export const StyledMobileMenu = styled.div`
     border-bottom: none;
   }
 
-  a {
+  a.contact {
     min-height: 40px;
     min-width: 140px;
     display: flex;
@@ -54,7 +54,7 @@ export const StyledMobileMenu = styled.div`
     cursor: pointer;
   }
 
-  a:hover {
+  a.contact:hover {
     transition: 0.5s;
     background-color: #16656b;
   }

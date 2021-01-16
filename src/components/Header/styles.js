@@ -75,6 +75,10 @@ export const StyledHeader = styled.header`
       width: 95%;
     }
 
+    img {
+      cursor: pointer;
+    }
+
     ul {
       width: 100%;
       height: 100%;
@@ -90,15 +94,20 @@ export const StyledHeader = styled.header`
       list-style: none;
       font-size: 1.2rem;
       color: #fff;
+    }
+
+    a {
+      text-align: center;
+      display: block;
       cursor: pointer;
     }
 
-    li:hover {
+    a:hover {
       transition: 0.5s;
       color: #63c9d2;
     }
 
-    a {
+    a.contact {
       min-height: 30px;
       min-width: 110px;
       display: flex;
@@ -112,7 +121,7 @@ export const StyledHeader = styled.header`
       cursor: pointer;
     }
 
-    a:hover {
+    a.contact:hover {
       transition: 0.5s;
       color: #fff;
       background-color: #16656b;
