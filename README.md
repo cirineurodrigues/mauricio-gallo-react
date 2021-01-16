@@ -1,4 +1,4 @@
-<p align="center"> <img src="src/assets/logo.png" alt="Logo Med-K"></p>
+<p align="center"> <img src="src/assets/logoReadme.png" alt="Logo Med-K" width="400px"></p>
 
 # ✅ Descrição do Projeto
 
